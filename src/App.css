@@ -1,0 +1,155 @@
+body {
+  background-image: white;
+}
+.Shppingkaroheading {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(255, 166, 0);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.Shppingkaroheading:hover {
+  color: black;
+}
+.mainshoppingdiv {
+  display: flex;
+  justify-content: center;
+}
+.Shoppingdropdown {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 60vw;
+  border-radius: 10px;
+  border: 2px solid orange;
+  padding: 10px 10px;
+
+  margin-top: 20px;
+}
+.downlist {
+  background-color: white;
+  width: 50vw;
+  height: 5vh;
+  font-weight: bold;
+  color: rgb(255, 166, 0);
+  border-radius: 10px;
+}
+.fetchapi {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid orange;
+  width: 20vw;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-right: 7px;
+  padding: 10px 10px;
+  box-shadow: 2px 3px #fc8803;
+}
+.fetchapiimages {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+.itemcategory {
+  font-weight: bold;
+  color: oranges;
+}
+.itemprice {
+  font-weight: bold;
+  color: orange;
+}
+.itemrating {
+  font-weight: bold;
+  color: orange;
+}
+.listofproduct {
+  text-align: center;
+  color: orange;
+  font-weight: bold;
+  margin-top: 5%;
+}
+
+.itemtitle {
+  color: orange;
+  font-weight: bold;
+  text-align: center;
+}
+
+.FetchListOfProduct {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+.input {
+  border: 2px solid red;
+  width: 50vw;
+  border-radius: 10px;
+  color: orange;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 1%;
+}
+.inputField {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 20px;
+  border-radius: 10px;
+  background-color: orange;
+  margin: 10px 10px;
+}
+.h5 {
+  color: white;
+  font-weight: bold;
+  margin-left: 16%;
+  font-family: "Times New Roman", Times, serif;
+}
+.shoppingdropdownbtn {
+  background-color: orange;
+  color: azure;
+  margin-right: 10px;
+  text-align: center;
+  border-radius: 10px;
+
+  font-weight: bold;
+}
+.display-flex {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 7px solid orange;
+  border-radius: 10px;
+  width: 80vw;
+}
+.formalignment {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.divForm {
+  display: flex;
+  justify-content: center;
+
+  width: 50vw;
+  border-radius: 10px;
+  border: 2px solid orange;
+  padding: 10px 10px;
+  margin-top: 20px;
+}
+.minimumpriceinput {
+  font-weight: bold;
+  color: orange;
+  text-align: center;
+  margin-right: 5px;
+  border: 2px solid orange;
+}
+.submitbtn {
+  font-weight: bold;
+  background-color: orange;
+  color: azure;
+
+  text-align: center;
+  border-radius: 10px;
+}
